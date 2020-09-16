@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_16sdp"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@android:color/transparent"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="@dimen/mini"
+
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:paddingBottom="@dimen/large">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="@dimen/large"
+                    android:layout_height="@dimen/large"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="@dimen/_16sdp"
+                    app:srcCompat="@drawable/ic_arrow_left" />
+
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_64sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:gravity="center"
+                    android:text="برای خرید و استفاده از امکانات برنامه \n ابتدا وارد حساب کاربری  شوید"
+                    android:textColor="#3c3c3c" />
+
+
+                <TextView
+                    android:id="@+id/txtContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtTitle"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="@dimen/small"
+                    android:gravity="center"
+                    android:text="به این منظور شماره همراه خود را وارد کنید \n تا کد تایید برای شما ارسال شود" />
+
+
+                <LinearLayout
+
+                    android:id="@+id/rootInput2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtContent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:layout_marginRight="@dimen/_16sdp"
+                    android:gravity="center|right"
+                    android:orientation="horizontal"
+                    android:textDirection="rtl">
+
+
+                    <EditText
+                        android:id="@+id/edtPhoneNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:hint="تلفن همراه(ضرورری)"
+                        android:inputType="number"
+                        android:singleLine="true"
+                        android:textColor="#3c3c3c"
+                        android:textColorHighlight="@color/hintTextDeSelectColor"
+                        android:textColorHint="#E8E8EA"
+                        android:textDirection="ltr" />
+
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rootInput2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+
+                    android:layout_marginTop="@dimen/large"
+                    android:background="@drawable/back_all_button"
+                    android:paddingLeft="@dimen/small"
+                    android:paddingRight="@dimen/small"
+                    android:text="تایید"
+                    android:textColor="#fff"
+                    android:textStyle="bold" />
+
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/progressBar"
+                    android:layout_centerInParent="true"
+                    android:visibility="gone"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="82dp"
+        android:layout_height="82dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/back_circle_solidwhite"
+        android:elevation="8dp"
+        android:padding="@dimen/mini">
+
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/ic_sv_logo_round" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

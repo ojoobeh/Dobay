@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">چرا زودتر بیمه عمر نخریدم</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="numf01">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="num01">راهنمای تابلو برق</string>
+    <string name="num02">راهنمای صفحه کیلومتر</string>
+    <string name="num03">کد های خطا و عیب یابی</string>
+    <string name="num04">پشتیبانی و خدمات مادگستر</string>
+
+
+    <string name="permissionWarning">این اپلیکیشن برای بارگذاری عکس ها و فیلم های مربوط به هر لغت نیاز به استفاده از حافظه دستگاه شما دارد.\n
+    لطفا در پنجره ای که باز خواهد شد این اجازه را صادر نمایید.</string>
+
+
+    <string name="permissionWarning2">این اپلیکیشن برای بارگذاری عکس ها و فیلم های مربوط به هر لغت نیاز به دسترسی به حافظه دستگاه شما دارد.\n
+    لطفا از قسمت تنظیمات گوشی قسمت نرم افزار ها این اجازه را صادر نمایید.</string>
+
+
+    <string name="homeBoom">راهنمای تابلو برق</string>
+    <string name="done">بعدی</string>
+    <string name="skip">رد کردن</string>
+
+    <color name="iconsLight">#808080</color>
+    <dimen name="intriImageWidth">300dp</dimen>
+
+    <string name="address">اصفهان خیابان امام خمینی ابتدای خیابان مشیرالدوله پلاک 4 \n تعمیرات الکترونیک دیجیتال</string>
+    <string name="tell">شماره تماس: </string>
+    <string name="tell01">09137983395</string>
+    <string name="tell02">09136491042</string>
+    <string name="introPage01">شرکت مادگستر اولین طراح و تولید کننده نرم افزار کاربردی مرتبط با اسکانیا با افتخار تقدیم میکند اولین نرم افزار کاربردی جهت رانندگان ، مالکان و کلیه علاقمندان به اسکانیا</string>
+    <string name="introPage02">چشم عقاب در تمام طول شبانه روز در کنار شماست تا هیچ کامیون یا اتوبوس اسکانیا در راه نماند</string>
+    <string name="introPage03">با چشم عقاب سطح اطلاعات عمومی و فنی خود را درمورد ناوگان اسکانیا بالا ببرید</string>
+    <string name="introPage04">چشم عقاب قصد دارد با آموزش و ارائه نکات فنی به شما عزیزان بار مالی ناشی از مشکلات بوجود آمده در خودرو شما را کاهش دهد</string>
+    <string name="introPage05">خدمات و پشتیبانی فنی ارائه شده از طرف تیم متخصص و ماهر چشم عقاب در تمامی لحظات و همه جاده ها حامی شما  مالکان  و  رانندگان  ناوگان  اسکانیا  می باشد</string>
+
+    <array name="imageNames">
+        <item>pick01.jpg</item>
+        <item>pick02.jpg</item>
+        <item>pick03.jpg</item>
+        <item>pick04.jpg</item>
+        <item>pick05.jpg</item>
+        <item>pick06.jpg</item>
+        <item>pick07.jpg</item>
+        <item>pick08.jpg</item>
+        <item>pick09.jpg</item>
+        <item>pick10.jpg</item>
+        <item>pick11.jpg</item>
+        <item>pick13.jpg</item>
+        <item>pick14.jpg</item>
+        <item>pick15.jpg</item>
+        <item>pick16.jpg</item>
+        <item>pick17.jpg</item>
+        <item>pick18.jpg</item>
+        <item>pick19.jpg</item>
+        <item>pick1901.jpg</item>
+        <item>pick20.jpg</item>
+        <item>pick21.jpg</item>
+        <item>pick22.jpg</item>
+        <item>pick23.jpg</item>
+        <item>pick24.jpg</item>
+        <item>pick25.jpg</item>
+        <item>pick26.jpg</item>
+        <item>pick27.jpg</item>
+    </array>
+
+
+</resources>

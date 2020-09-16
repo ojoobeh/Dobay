@@ -1,0 +1,15 @@
+
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="fill_parent"
+        android:id="@+id/txtv_spinner"
+        android:layout_height="40dp"
+        android:gravity="right"
+
+        android:textSize="20dp"
+        android:text="test one"
+        />
+
+

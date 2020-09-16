@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00C203</color>
+    <color name="colorPrimary2">#42381A</color>
+    <color name="colorPrimary1">#5CD65E</color>
+    <color name="colorPrimaryDark">#007403</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="mainColor">#e7d7bd</color>
+
+    <color name="navigationColor">#EEEBEB</color>
+    <color name="navigationTextColor">#3c3c3c</color>
+    <color name="navigationIconColor">#5b5959</color>
+
+    <color name="black">#0b0b0b</color>
+    <color name="red">#ff0000</color>
+    <color name="yellow">#004201</color>
+    <color name="green">#00ff04</color>
+    <color name="blue">#0000c1</color>
+    <color name="colorBlue2">#1676FF</color>
+    <color name="hintTextDeSelectColor">#334194</color>
+    <color name="colorNameCar">#334194</color>
+    <color name="introTextColor">#e7e5e5</color>
+    <color name="cardview_light_background">#A09F9F</color>
+
+    <color name="bbb">#5495c9</color>
+
+    <color name="colorPrimaryLight">#e3fafafa</color>
+
+
+    <color name="gray900">#424242</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray500">#cccbcb</color>
+    <color name="gray600">#757575</color>
+    <color name="gray700">#616161</color>
+    <color name="gray100">#f1f1f1</color>
+
+    <color name="white">#fff</color>
+
+
+    <color name="base">#f33</color>
+    <color name="highlight">#98D15C</color>
+    <color name="error">#756A6A</color>
+    <color name="hint">#574800</color>
+    <color name="arrow">#C933FF</color>
+    <color name="floating_label">#03A9F4</color>
+
+
+
+</resources>

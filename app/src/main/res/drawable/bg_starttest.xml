@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Changes that the button has to show when it is pressed -->
+
+    <item android:state_pressed="true" >
+        <shape>
+
+            <solid
+                android:color="@color/colorPrimaryDark"
+
+                />
+
+            <!-- Keep the stroke values same if you want the same border effect, irrespective you press / un-press the button
+            In case ih you want to change the border thickness, while the button is being clicked,
+             then increase the "android:width" value -->
+            <stroke
+                android:width="1dp"
+                android:color="#fefffe" />
+            <corners
+                android:radius="6dp" />
+
+        </shape>
+    </item>
+
+
+
+    <!-- Default appearance when the button is displayed  -->
+    <item>
+        <shape>
+            <solid
+                android:color="@color/colorPrimary" />
+
+            <stroke
+                android:width="1dp"
+                android:color="@color/colorPrimaryDark"
+
+                />
+            <corners
+                android:radius="6dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />
+        </shape>
+    </item>
+</selector>
+

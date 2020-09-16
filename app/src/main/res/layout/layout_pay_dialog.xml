@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/paydialog_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e1e1e1"
+            android:gravity="center"
+            android:padding="@dimen/_16sdp"
+            android:text="ابتدا پکیج را خریداری نمایید"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_8sdp">
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnDownloadLater"
+                android:layout_width="@dimen/buttonSubmitWidth2"
+                android:layout_height="@dimen/buttonSubmitHeight"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_4sdp"
+
+                android:background="@drawable/back_btn"
+                android:gravity="center"
+                android:text="خیر"
+                android:textColor="#F0F0F0"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatButton
+                android:id="@+id/btnDownloadNow"
+                android:layout_width="@dimen/buttonSubmitWidth2"
+                android:layout_height="@dimen/buttonSubmitHeight"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/_8sdp"
+                android:layout_marginRight="@dimen/_4sdp"
+                android:background="@drawable/back_btn"
+                android:gravity="center"
+                android:text="بله"
+                android:textColor="#F0F0F0"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

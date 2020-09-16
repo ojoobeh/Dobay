@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity2.SupportDetailActivity">
+
+    <LinearLayout
+        android:id="@+id/rootToolbar"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buttonSubmitHeight">
+        <com.google.android.material.appbar.AppBarLayout
+            android:background="@drawable/back_toolbar"
+            android:layout_width="match_parent"
+            android:layoutDirection="ltr"
+            android:layout_height="?attr/actionBarSize">
+
+            <include layout="@layout/maintoolbar" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+    <WebView
+        android:layout_below="@id/rootToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"/>
+
+</RelativeLayout>

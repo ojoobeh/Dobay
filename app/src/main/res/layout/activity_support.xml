@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    tools:context=".activity2.SupportActivity">
+    <LinearLayout
+        android:id="@+id/rootToolbar"
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buttonSubmitHeight">
+        <com.google.android.material.appbar.AppBarLayout
+            android:background="@drawable/back_toolbar"
+            android:layout_width="match_parent"
+            android:layoutDirection="ltr"
+            android:layout_height="?attr/actionBarSize">
+
+            <include layout="@layout/maintoolbar" />
+        </com.google.android.material.appbar.AppBarLayout>
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/rootToolbar"
+        android:id="@+id/cardRoot"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_margin="@dimen/_8sdp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        app:cardCornerRadius="@dimen/_4sdp"
+        app:cardElevation="@dimen/_2sdp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_32sdp"
+                android:text="@string/address"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/rootTell"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layoutDirection="rtl"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/tell"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/txtTell01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/tell01"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="-"
+                    android:textColor="#fff" />
+
+                <TextView
+                    android:id="@+id/txtTell02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="4dp"
+                    android:text="@string/tell02"
+                    android:textColor="#fff" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/imgInsta"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_above="@id/rootTell"
+                android:layout_alignParentRight="true"
+                android:layout_margin="@dimen/_8sdp"
+                android:elevation="@dimen/_2sdp"
+                android:src="@mipmap/instagram" />
+
+
+            <ImageView
+                android:id="@+id/imgWeb"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_above="@id/rootTell"
+                android:layout_marginBottom="@dimen/_8sdp"
+                android:layout_toLeftOf="@id/imgInsta"
+                android:elevation="@dimen/_2sdp"
+                android:src="@mipmap/website" />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cardRoot" />
+
+</RelativeLayout>

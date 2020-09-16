@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+        <androidx.appcompat.widget.Toolbar
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/maintoolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:contentInsetStartWithNavigation="0dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="@dimen/mini"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                        <ImageView
+                            android:padding="@dimen/small"
+                            android:id="@+id/back_icon"
+                            android:layout_gravity="center"
+                            android:src="@drawable/back"
+                            android:layout_width="@dimen/large"
+                            android:layout_height="@dimen/large" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="6"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/tooltxt"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/mediumfont" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="@dimen/zero"
+                    android:layout_height="match_parent">
+                        <ImageView
+                            android:padding="@dimen/small"
+                            android:id="@+id/cheshme_oghab_logo"
+                            android:src="@mipmap/icon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/buttonSubmitHeight"
+            android:layout_gravity="top">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@drawable/back_toolbar">
+
+                <include layout="@layout/maintoolbar" />
+            </com.google.android.material.appbar.AppBarLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mediumfont"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/small"
+                        android:text="انتخاب سیستم" />
+
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/small"
+                    android:layout_weight="1"
+                    android:padding="8dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="@dimen/small"
+                        android:text="کد خطا" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/mini"
+
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_corner8dp"
+                    android:padding="8dp">
+
+                    <Spinner
+                        android:id="@+id/spinnerSystem"
+                        android:layout_width="match_parent"
+                        android:layout_height="32dp"
+                        android:layout_centerInParent="true"
+                        android:popupBackground="@drawable/back_toolbar" />
+
+
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/edtErrorCode"
+                    android:layout_width="0dp"
+                    android:layout_height="46dp"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity=""
+                    android:layout_marginLeft="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/back_corner8dp"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:singleLine="true"
+                    tools:text="300222" />
+
+
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btnSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/_32sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginRight="@dimen/_32sdp"
+                android:background="@drawable/back_all_button"
+
+                android:text="جستجو"
+                android:textColor="#fff" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/_16sdp"
+                app:cardBackgroundColor="#FAFAFA"
+                app:cardCornerRadius="@dimen/_8sdp"
+                app:cardElevation="@dimen/_2sdp">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#FAFAFA">
+
+
+                        <TextView
+
+                            android:id="@+id/txtShowError"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="right"
+                            android:padding="@dimen/mediumfont"
+                            tools:text="However, I'm encountering a NullPointerException on android.view.View android.support.design.widget.TabLayout.getChildAt(int), can you help me how to fix it? Can't find what am I missing on my code" />
+                    </RelativeLayout>
+
+                </ScrollView>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
+
